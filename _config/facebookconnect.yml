@@ -1,0 +1,23 @@
+---
+name: facebookconnect
+---
+Member:
+  extensions:
+    - FacebookMemberExtension
+
+Controller:
+  extensions:
+    - FacebookControllerExtension
+
+Authenticator:
+  authenticators:
+    - FacebookAuthenticator
+
+FacebookControllerExtension:
+  facebook_fields:
+    - email
+    - first_name
+    - last_name
+Director:
+   rules:
+     'FacebookConnectAuthCallback//$Action/$ID/$OtherID': 'FacebookConnectAuthCallback'
