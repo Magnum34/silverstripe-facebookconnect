@@ -111,5 +111,4 @@ class FacebookMemberExtension extends DataExtension {
 			}
 		}
 	}
-
 }

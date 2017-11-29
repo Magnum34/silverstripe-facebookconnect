@@ -37,4 +37,5 @@ class FacebookLoginForm extends MemberLoginForm {
 
 		return parent::__construct($controller, $name, $fields, $actions);
 	}
+
 }

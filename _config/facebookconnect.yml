@@ -19,5 +19,6 @@ FacebookControllerExtension:
     - first_name
     - last_name
 Director:
-   rules:
+  rules:
      'FacebookConnectAuthCallback//$Action/$ID/$OtherID': 'FacebookConnectAuthCallback'
+
